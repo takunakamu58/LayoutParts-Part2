@@ -1,1 +1,150 @@
-@charset "UTF-8";
+@charset "utf-8";
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    padding: 0 15px;
+    margin-left: 30px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+}
+
+.button-red {
+    color: #fff;
+    background: #fd0f0fd9;
+    cursor: pointer;
+}
+
+.button-blue {
+    color: #fff;
+    background: #170ffdd9;
+    cursor: pointer;
+}
+
+.button-green {
+    color: #000;
+    background: #0ffd0fd9;
+    cursor: pointer;
+}
+
+
+.button-shadow-red {
+    color: #fff;
+    background: #fd0f0fd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-shadow-blue {
+    color: #fff;
+    background: #170ffdd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-shadow-green {
+    color: #000;
+    background: #0ffd0fd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-push-red {
+    color: #fff;
+    background: #fd0f0fd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-push-red:active {
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+
+.button-push-blue {
+    color: #fff;
+    background: #170ffdd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-push-blue:active {
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+
+.button-push-green {
+    color: #000;
+    background: #0ffd0fd9;
+    cursor: pointer;
+    box-shadow:0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button-push-green:active {
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+
+.button-change-red {
+    color: #fff;
+    background: #fd0f0fd9;
+    cursor: pointer;
+}
+
+.button-change-blue {
+    color: #fff;
+    background: #170ffdd9;
+    cursor: pointer;
+}
+
+.button-change-green {
+    color: #000;
+    background: #0ffd0fd9;
+    cursor: pointer;
+}
+
+
+.button-change-red {
+    color: #67c5ff;
+    border: 4px double #67c5ff;
+    background: #fff;
+    transition: 0.5s
+}
+
+.button-change-red:hover {
+    background: #fffdef;
+}
+
+.button-change-blue {
+    color: #67c5ff;
+    border: 4px dotted dodgerblue;
+    background: #fff;
+    transition: 0.5s
+
+}
+
+.button-change-blue:hover {
+    border: dashed;
+}
+
+.button-change-green {
+    color: #0079a518;
+    background: #d0edfff8;
+    border: 4px dashed #67c5ff;
+    transition: 0.5s
+
+}
+
+.button-change-green:hover {
+    color: #67c5ff;
+    background: #fff;
+}
