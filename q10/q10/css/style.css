@@ -15,6 +15,10 @@
     line-height: 50px;
 }
 
+.btn:first-child {
+    margin-left: 0;
+}
+
 .button-red {
     color: #fff;
     background: #fd0f0fd9;
@@ -92,24 +96,6 @@
     box-shadow: none;
     position:relative;
     top:7px;
-}
-
-.button-change-red {
-    color: #fff;
-    background: #fd0f0fd9;
-    cursor: pointer;
-}
-
-.button-change-blue {
-    color: #fff;
-    background: #170ffdd9;
-    cursor: pointer;
-}
-
-.button-change-green {
-    color: #000;
-    background: #0ffd0fd9;
-    cursor: pointer;
 }
 
 
