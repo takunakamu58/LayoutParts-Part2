@@ -5,18 +5,18 @@
 }
 
 .image {
-  background: url(/Users/nakamuratakuyume/LayoutParts-Part2/q8/image/coffee-background.jpg);
+  background: url(../../image/coffee-background.jpg);
 }
 
 .image2 {
-  background: url(/Users/nakamuratakuyume/LayoutParts-Part2/q8/image/coffee-background.jpg) no-repeat;
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .image3 {
-  background: url(/Users/nakamuratakuyume/LayoutParts-Part2/q8/image/coffee-background.jpg)no-repeat center/cover;
+  background: url(../../image/coffee-background.jpg)no-repeat center/cover;
 }
 
 .image4 {
-  background: url(/Users/nakamuratakuyume/LayoutParts-Part2/q8/image/coffee-background.jpg) no-repeat center/contain;
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
 
