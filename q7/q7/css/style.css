@@ -16,7 +16,7 @@
 .boxed::before {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: -40px;
   left: 10%;
   margin-left: -26px;
   border: 20px solid transparent;
@@ -26,10 +26,9 @@
 .boxed::after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: -29px;
   left: 10%;
   margin-left: -20px;
   border: 15px solid  transparent;
   border-top: 15px solid #fad296;
 }
-
