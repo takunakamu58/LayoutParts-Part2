@@ -13,21 +13,20 @@
 }
 
 
-.boxed::before {
+.boxed::before , .boxed::after {
   content: "";
   position: absolute;
-  bottom: -40px;
+  top:100%;
   left: 10%;
+}
+
+.boxed::before {
   margin-left: -26px;
   border: 20px solid transparent;
   border-top: 20px solid #8f5a0a;
 }
 
 .boxed::after {
-  content: "";
-  position: absolute;
-  bottom: -29px;
-  left: 10%;
   margin-left: -20px;
   border: 15px solid  transparent;
   border-top: 15px solid #fad296;
