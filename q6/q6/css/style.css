@@ -13,12 +13,13 @@ header {
 .inner {
   width: 1100px;
   margin: 0 auto;
-  align-items: center;
 }
 
 .flexed {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 .header-left a {
